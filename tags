@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Matrix	Jacobi.cpp	/^class Matrix$/;"	c	file:
+getCol	Jacobi.cpp	/^	size_type getCol() const$/;"	f	class:Matrix
+getRow	Jacobi.cpp	/^	size_type getRow() const$/;"	f	class:Matrix
+getvalue	Jacobi.cpp	/^	value_type & getvalue( const size_type i , const size_type j) const$/;"	f	class:Matrix
+initialize	Jacobi.cpp	/^	void initialize( const size_type r, const size_type c )$/;"	f	class:Matrix
+jacobiMethod	Jacobi.cpp	/^void jacobiMethod(const Matrix<value_type,size_type> & a,$/;"	f
+mColCount	Jacobi.cpp	/^	size_type mColCount;$/;"	m	class:Matrix	file:
+mData	Jacobi.cpp	/^	value_type * mData;$/;"	m	class:Matrix	file:
+mRowCount	Jacobi.cpp	/^	size_type mRowCount;$/;"	m	class:Matrix	file:
+main	Jacobi.cpp	/^int main()$/;"	f
+myRound	Jacobi.cpp	/^value_type myRound( value_type var)$/;"	f
+readMatrix	Jacobi.cpp	/^void readMatrix(Matrix<value_type, size_type> & matrix, std::ifstream & like_pipe )$/;"	f
+setvalue	Jacobi.cpp	/^	void setvalue( const size_type i, const size_type j,const  value_type  e)$/;"	f	class:Matrix
+writeMatrix	Jacobi.cpp	/^void writeMatrix(const Matrix<value_type, size_type> & matrix , std::ofstream & like_pipe)$/;"	f
